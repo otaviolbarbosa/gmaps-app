@@ -1,5 +1,5 @@
 import { findByText } from '@/api/mapsApi';
-import React, { FormEvent, useState } from 'react'
+import React, { FormEvent, KeyboardEvent, useState } from 'react'
 import { CgSearch } from "react-icons/cg";
 
 const Search = () => {
